@@ -1,0 +1,21 @@
+vi:
+  static_pages:
+    home:
+      title: "Trang chủ"
+      introduction_html: "Đây là trang chủ cho <a href='https://www.railstutorial.org'>Hướng dẫn Ruby on Rails Sample App</a> "
+      app_name: "sample application"
+      tutorial: "Hướng dẫn Ruby on Rails Sample App"
+    about:
+      introduction_html: "<a href='https://www.railstutorial.org'>Ruby on Rails Tutorial</a> là <a href='https://www.railstutorial.org/book'>sách</a> và <a href='https://www.railstutorial.org/#html_ebooks_and_screencast_videos'>loạt screencast series</a> để dạy phát triển web với Ruby on Rails. Đây là ứng dụng mẫu cho hướng dẫn."
+      title: "Giới thiệu"
+    help:
+      introduction_html: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
+       <a href='https://www.railstutorial.org/help'>Rails Tutorial help section</a>.
+       Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
+       <a href='https://www.railstutorial.org/book'><em>Ruby on Rails Tutorial</em>
+       book</a>."
+      title: "Trợ giúp"
+    contact:
+      introduction_html: " Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại
+       <a href='https://www.railstutorial.org/contact'>trang liên hệ</a>."
+      title: "Liên hệ"
