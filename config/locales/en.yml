@@ -20,6 +20,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  layouts:
+    footer:
+      introduction_html: "The <a href='https://www.railstutorial.org/'>Ruby on Rails Tutorial</a>
+        by <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
+      news_html: <a href="http://news.railstutorial.org/">News</a>
   static_pages:
     home:
       title: "Home"
@@ -40,3 +45,11 @@ en:
       introduction_html: Contact the Ruby on Rails Tutorial about the sample app at the
         <a href="https://www.railstutorial.org/contact">contact page</a>.
       title: "Contact"
+  users:
+    signin:
+      title: Sign in
+    signup:
+      header_title: Sign Up
+      btn_title: Sign Up Now!
+    new:
+      introduction: This will be a signup page for new users.

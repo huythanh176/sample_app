@@ -1,9 +1,14 @@
 vi:
+  layouts:
+    footer:
+      introduction_html: "<a href='https://www.railstutorial.org/'>Hướng dẫn Ruby on Rails</a>
+        theo <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
+      news_html: <a href="http://news.railstutorial.org/">Tin tức</a>
   static_pages:
     home:
       title: "Trang chủ"
       introduction_html: "Đây là trang chủ cho <a href='https://www.railstutorial.org'>Hướng dẫn Ruby on Rails Sample App</a> "
-      app_name: "sample application"
+      app_name: "Ứng dụng đơn giản"
       tutorial: "Hướng dẫn Ruby on Rails Sample App"
     about:
       introduction_html: "<a href='https://www.railstutorial.org'>Ruby on Rails Tutorial</a> là <a href='https://www.railstutorial.org/book'>sách</a> và <a href='https://www.railstutorial.org/#html_ebooks_and_screencast_videos'>loạt screencast series</a> để dạy phát triển web với Ruby on Rails. Đây là ứng dụng mẫu cho hướng dẫn."
@@ -16,6 +21,14 @@ vi:
        book</a>."
       title: "Trợ giúp"
     contact:
-      introduction_html: " Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại
+      introduction_html: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại
        <a href='https://www.railstutorial.org/contact'>trang liên hệ</a>."
       title: "Liên hệ"
+  users:
+    signin:
+      title: Đăng nhập
+    signup:
+      header_title: Đăng kí
+      btn_title: Đăng kí ngay!
+    new:
+      introduction: Đây sẽ là một trang đăng ký cho người dùng mới.
