@@ -42,6 +42,7 @@ vi:
       title: Đăng nhập
       invalid: Email hoặc mật khẩu không hợp lệ
       new_user: "Người dùng mới? "
+      remember: "Ghi nhớ"
     signup:
       header_title: Đăng kí
       btn_title: Đăng kí ngay!
