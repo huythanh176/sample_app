@@ -1,4 +1,5 @@
 vi:
+  welcome: "Chào mừng đến với Sample App"
   layouts:
     footer:
       introduction_html: "<a href='https://www.railstutorial.org/'>Hướng dẫn Ruby on Rails</a>
@@ -24,11 +25,25 @@ vi:
       introduction_html: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại
        <a href='https://www.railstutorial.org/contact'>trang liên hệ</a>."
       title: "Liên hệ"
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password : "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
   users:
+    not_exist: "Người dùng không tồn tại"
     signin:
       title: Đăng nhập
     signup:
       header_title: Đăng kí
       btn_title: Đăng kí ngay!
+      fail: Tạo tài khoản không thành công
+      errors:
+        zero: Không có lỗi
+        one : Đã xảy ra 1 lỗi
+        other : "Đã xảy ra %{count} lỗi"
     new:
       introduction: Đây sẽ là một trang đăng ký cho người dùng mới.
+      submit_btn: "Tạo tài khoản"
