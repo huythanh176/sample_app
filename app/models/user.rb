@@ -6,7 +6,8 @@ class User < ApplicationRecord
                     format: {with: Settings.user.email.valid},
                     uniqueness: true
   validates :password, presence: true,
-                       length: {minimum: Settings.user.password.minimum}
+                       length: {minimum: Settings.user.password.minimum},
+                       allow_nil: true
   before_save :mail
   has_secure_password
 

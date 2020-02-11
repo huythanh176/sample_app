@@ -35,9 +35,24 @@ vi:
       session:
         password: "Mật khẩu"
   users:
+    all: Tất cả người dùng
     account: Tài khoản
     title: Người dùng
     not_exist: "Người dùng không tồn tại"
+    updated: Đã cập nhật thông tin
+    deleted: Người dùng đã bị xóa
+    delete: Xóa
+    delete_message: "Bạn có chắc không ?"
+    cant_delete: "Không thể xóa người dùng này"
+    not_found: Không tìm thấy người dùng
+    not_login: Chưa đăng nhập
+    update:
+      title: Cập nhật thông tin của bạn
+      btn_save: Lưu thay đổi
+    edit:
+      title: Chỉnh sửa người dùng
+      btn_change: Thay đổi
+      permission_denied: Bạn không đủ quyền hạn
     signin:
       title: Đăng nhập
       invalid: Email hoặc mật khẩu không hợp lệ

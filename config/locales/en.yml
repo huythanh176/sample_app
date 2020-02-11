@@ -54,9 +54,24 @@ en:
         password : "Password"
         password_confirmation: "Confirmation"
   users:
+    all: All User
     account: Account
     title: Users
-    not_exist: "User not exist"
+    not_exist: User not exist
+    updated: Profile updated
+    deleted: User deleted
+    delete: Delete
+    delete_message: "You sure ?"
+    cant_delete: "Can't delete this user"
+    not_found: User not found
+    not_login: Please login
+    update:
+      title: Update your profile
+      btn_save: Save changes
+    edit:
+      title: Edit user
+      btn_change: Change
+      permission_denied: Permission Denied
     signin:
       title: Log In
       invalid: Invalid email/password combination
