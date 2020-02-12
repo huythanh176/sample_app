@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  welcome: "Welcome to Sample App"
   layouts:
     footer:
       introduction_html: "The <a href='https://www.railstutorial.org/'>Ruby on Rails Tutorial</a>
@@ -45,11 +46,24 @@ en:
       introduction_html: Contact the Ruby on Rails Tutorial about the sample app at the
         <a href="https://www.railstutorial.org/contact">contact page</a>.
       title: "Contact"
+  activerecord:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password : "Password"
+        password_confirmation: "Confirmation"
   users:
+    not_exist: "User not exist"
     signin:
       title: Sign in
     signup:
       header_title: Sign Up
       btn_title: Sign Up Now!
+      fail: Account creation failed
+      errors:
+       one : "The form contain one error"
+       other : "The form contain %{count} errors"
     new:
       introduction: This will be a signup page for new users.
+      submit_btn: "Create my account"
