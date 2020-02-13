@@ -25,17 +25,23 @@ vi:
       introduction_html: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại
        <a href='https://www.railstutorial.org/contact'>trang liên hệ</a>."
       title: "Liên hệ"
-  activerecord:
-    attributes:
+  helpers:
+    label:
       user:
         name: "Tên"
         email: "Email"
-        password : "Mật khẩu"
+        password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+      session:
+        password: "Mật khẩu"
   users:
+    account: Tài khoản
+    title: Người dùng
     not_exist: "Người dùng không tồn tại"
     signin:
       title: Đăng nhập
+      invalid: Email hoặc mật khẩu không hợp lệ
+      new_user: "Người dùng mới? "
     signup:
       header_title: Đăng kí
       btn_title: Đăng kí ngay!
@@ -44,6 +50,12 @@ vi:
         zero: Không có lỗi
         one : Đã xảy ra 1 lỗi
         other : "Đã xảy ra %{count} lỗi"
+    logout:
+      title: Đăng xuất
+    settings:
+      title: Cài đặt
+    profile:
+      title: Hồ sơ
     new:
       introduction: Đây sẽ là một trang đăng ký cho người dùng mới.
       submit_btn: "Tạo tài khoản"

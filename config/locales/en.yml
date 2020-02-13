@@ -46,24 +46,34 @@ en:
       introduction_html: Contact the Ruby on Rails Tutorial about the sample app at the
         <a href="https://www.railstutorial.org/contact">contact page</a>.
       title: "Contact"
-  activerecord:
-    attributes:
+  helpers:
+    label:
       user:
         name: "Name"
         email: "Email"
         password : "Password"
         password_confirmation: "Confirmation"
   users:
+    account: Account
+    title: Users
     not_exist: "User not exist"
     signin:
-      title: Sign in
+      title: Log In
+      invalid: Invalid email/password combination
+      new_user: "New user? "
     signup:
       header_title: Sign Up
       btn_title: Sign Up Now!
       fail: Account creation failed
       errors:
-       one : "The form contain one error"
-       other : "The form contain %{count} errors"
+        one : "The form contain one error"
+        other : "The form contain %{count} errors"
+    logout:
+      title: Log out
+    settings:
+      title: Settings
+    profile:
+      title: Profile
     new:
       introduction: This will be a signup page for new users.
       submit_btn: "Create my account"
