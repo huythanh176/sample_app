@@ -61,6 +61,7 @@ en:
       title: Log In
       invalid: Invalid email/password combination
       new_user: "New user? "
+      remember: Remember me on this computer
     signup:
       header_title: Sign Up
       btn_title: Sign Up Now!
