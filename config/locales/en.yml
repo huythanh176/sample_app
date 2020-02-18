@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  hi: "Hi "
   welcome: "Welcome to Sample App"
   layouts:
     footer:
@@ -54,6 +55,11 @@ en:
         password : "Password"
         password_confirmation: "Confirmation"
   users:
+    activation: Account activation
+    activated: "Account activated"
+    invalid_link: Invalid activation link
+    not_activated: Account not activated.Check your email for the activation link.
+    activate_account: Welcome to the Sample App! Click on the link below to activate your account
     all: All User
     account: Account
     title: Users
@@ -93,3 +99,4 @@ en:
     new:
       introduction: This will be a signup page for new users.
       submit_btn: "Create my account"
+

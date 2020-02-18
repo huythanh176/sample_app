@@ -7,3 +7,4 @@ user:
   password:
     minimum: 6
   gravatar: 50
+mail: "noreply@example.com"
