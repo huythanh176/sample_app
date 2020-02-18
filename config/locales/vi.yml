@@ -1,4 +1,5 @@
 vi:
+  hi: Xin Chào
   welcome: "Chào mừng đến với Sample App"
   layouts:
     footer:
@@ -9,7 +10,7 @@ vi:
     home:
       title: "Trang chủ"
       introduction_html: "Đây là trang chủ cho <a href='https://www.railstutorial.org'>Hướng dẫn Ruby on Rails Sample App</a> "
-      app_name: "Ứng dụng đơn giản"
+      app_name: "Sample App"
       tutorial: "Hướng dẫn Ruby on Rails Sample App"
     about:
       introduction_html: "<a href='https://www.railstutorial.org'>Ruby on Rails Tutorial</a> là <a href='https://www.railstutorial.org/book'>sách</a> và <a href='https://www.railstutorial.org/#html_ebooks_and_screencast_videos'>loạt screencast series</a> để dạy phát triển web với Ruby on Rails. Đây là ứng dụng mẫu cho hướng dẫn."
@@ -35,6 +36,10 @@ vi:
       session:
         password: "Mật khẩu"
   users:
+    activate: Kích hoạt
+    activation: Kích hoạt tài khoản
+    not_activated: Tài khoản chưa kích hoạt. Vui lòng kiểm tra email để kích hoạt tài khoản
+    activate_account: Chào mừng đến Sample App! Click vào đường dẫn bên dưới để kích hoạt tài khoản
     all: Tất cả người dùng
     account: Tài khoản
     title: Người dùng
@@ -58,6 +63,20 @@ vi:
       invalid: Email hoặc mật khẩu không hợp lệ
       new_user: "Người dùng mới? "
       remember: "Ghi nhớ"
+      forgot_password: Quên mật khẩu
+      forgot_password_info: "Email đã được gửi với hướng dẫn reset mật khẩu"
+      email_not_found: Không tìm thấy địa chỉ email
+      password_reset: Reset mật khẩu
+      link_to_reset: Để reset mật khẩu kích vào đường link ở dưới
+      reset_expire_html: <p>Link này sẽ hết hạn sau 2 giờ</p>
+                    <p>
+                    Nếu bạn không yêu cầu reset mật khẩu, vui lòng bỏ qua email
+                    này
+                    </p>
+      password_reset_success: Mật khẩu vừa được reset !
+      password_invalid: Mật khẩu không thể trống
+      update_password: Cập nhật mật khẩu
+      submit_btn: Xác nhận
     signup:
       header_title: Đăng kí
       btn_title: Đăng kí ngay!
