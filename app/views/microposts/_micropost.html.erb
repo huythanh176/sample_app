@@ -1,0 +1,12 @@
+<li id="micropost-<%= micropost.id %>">
+  <%= link_to gravatar_for(micropost.user, size: Settings.post.gravatar), micropost.user %>
+  <span class="user"><%= link_to micropost.user.name, micropost.user %></span>
+  <span class="content"><%= micropost.content %></span>
+  <span class="timestamp">
+    <%= t("users.micropost.posted_time", time: time_ago_in_words(micropost.created_at)) %>
+    <% if current_user?(micropost.user) %>
+     <%= link_to t("users.delete"), micropost, method: :delete,
+       data: {confirm: t("users.delete_message")} %>
+    <% end %>
+  </span>
+</li>

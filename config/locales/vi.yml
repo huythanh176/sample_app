@@ -47,6 +47,8 @@ vi:
     updated: Đã cập nhật thông tin
     deleted: Người dùng đã bị xóa
     delete: Xóa
+    post: Đăng
+    view_profile: Xem thông tin của tôi
     delete_message: "Bạn có chắc không ?"
     cant_delete: "Không thể xóa người dùng này"
     not_found: Không tìm thấy người dùng
@@ -85,6 +87,18 @@ vi:
         zero: Không có lỗi
         one : Đã xảy ra 1 lỗi
         other : "Đã xảy ra %{count} lỗi"
+    micropost:
+      title: bài đăng
+      create: "Micropost created!"
+      deleted: "Micropost deleted"
+      compose: Soạn thảo bài đăng mới
+      posted_time: "Đã đăng %{time} giờ trước"
+      feed: Micropost feed
+      not_exist: Bài đăng không tồn tại
+      cant_delete: Không thể xóa post này
+      size:
+        one: Micropost
+        other: "Microposts %{count}"
     logout:
       title: Đăng xuất
     settings:
