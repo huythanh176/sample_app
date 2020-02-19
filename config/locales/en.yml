@@ -62,11 +62,13 @@ en:
     activate_account: Welcome to the Sample App! Click on the link below to activate your account
     all: All User
     account: Account
+    view_profile: View my profile
     title: Users
     not_exist: User not exist
     updated: Profile updated
     deleted: User deleted
     delete: Delete
+    post: Post
     delete_message: "You sure ?"
     cant_delete: "Can't delete this user"
     not_found: User not found
@@ -105,6 +107,19 @@ en:
       errors:
         one : "The form contain one error"
         other : "The form contain %{count} errors"
+    micropost:
+      title: micropost
+      create: "Micropost created!"
+      deleted: "Micropost deleted"
+      posted_time: Posted %{time} ago
+      compose: Compose new micropost...
+      feed: Micropost feed
+      picture_invalid: "Should be less than 5MB"
+      not_exist: This post not exist
+      cant_delete: Cant delete this post
+      size:
+        one: Micropost
+        other: "Microposts %{count}"
     logout:
       title: Log out
     settings:

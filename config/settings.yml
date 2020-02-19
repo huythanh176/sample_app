@@ -8,3 +8,8 @@ user:
     minimum: 6
   gravatar: 50
 mail: "noreply@example.com"
+
+post:
+  gravatar: 50
+  content:
+    maximum: 144
