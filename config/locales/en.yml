@@ -114,7 +114,7 @@ en:
       posted_time: Posted %{time} ago
       compose: Compose new micropost...
       feed: Micropost feed
-      picture_invalid: "Should be less than 5MB"
+      picture_invalid: "Should be less than %{size} MB"
       not_exist: This post not exist
       cant_delete: Cant delete this post
       size:
