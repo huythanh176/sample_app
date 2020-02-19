@@ -35,6 +35,28 @@ vi:
         password_confirmation: "Xác nhận mật khẩu"
       session:
         password: "Mật khẩu"
+  datetime:
+    distance_in_words:
+      about_x_hours:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: Email không thể trống
+              invalid: Email không hợp lệ
+            name:
+              blank: Tên không thể trống
+              too_long: Tên quá dài
+            password:
+              blank: Mật khẩu không thể trống
+              too_short: Mật khẩu quá ngắn
+            password_confirmation:
+              confirmation: Không khớp với mật khẩu
+  datetime:
+    distance_in_words:
+      about_x_hours: "Đã đăng %{count} giờ trước"
   users:
     activate: Kích hoạt
     activation: Kích hoạt tài khoản
@@ -48,6 +70,10 @@ vi:
     deleted: Người dùng đã bị xóa
     delete: Xóa
     post: Đăng
+    following: Đang theo dõi
+    followers: Người theo dõi
+    follow: Theo dõi
+    unfollow: Bỏ theo dõi
     view_profile: Xem thông tin của tôi
     delete_message: "Bạn có chắc không ?"
     cant_delete: "Không thể xóa người dùng này"
@@ -92,15 +118,14 @@ vi:
       create: "Micropost created!"
       deleted: "Micropost deleted"
       compose: Soạn thảo bài đăng mới
-      posted_time: "Đã đăng %{time} giờ trước"
       feed: Micropost feed
       picture_invalid: "Nên nhỏ hơn %{size} MB"
       not_exist: Bài đăng không tồn tại
       cant_delete: Không thể xóa post này
+      posted_time: "Đã đăng %{time} trước"
       size:
         one: Micropost
         other: "Microposts %{count}"
-
     logout:
       title: Đăng xuất
     settings:

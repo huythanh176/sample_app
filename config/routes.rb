@@ -12,5 +12,11 @@ Rails.application.routes.draw do
     resources :account_activations, only: :edit
     resources :password_resets, except: %i(destroy show)
     resources :microposts, only: %i(create destroy)
+    resources :users do
+      member do
+        get :following, :followers
+      end
+    end
+    resources :relationships, only: %i(create destroy)
   end
 end
