@@ -13,3 +13,6 @@ post:
   gravatar: 50
   content:
     maximum: 144
+  picture:
+    size: 5
+    path: "image/jpeg,image/gif,image/png"

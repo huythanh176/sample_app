@@ -45,7 +45,7 @@ Rails.application.configure do
    # Don't use this literally; use your local dev host instead
   # Use this on the cloud IDE.
 
-
+  config.middleware.use I18n::JS::Middleware
 
   config.action_mailer.perform_caching = false
 

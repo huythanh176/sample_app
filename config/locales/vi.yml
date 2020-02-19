@@ -94,11 +94,13 @@ vi:
       compose: Soạn thảo bài đăng mới
       posted_time: "Đã đăng %{time} giờ trước"
       feed: Micropost feed
+      picture_invalid: "Nên nhỏ hơn %{size} MB"
       not_exist: Bài đăng không tồn tại
       cant_delete: Không thể xóa post này
       size:
         one: Micropost
         other: "Microposts %{count}"
+
     logout:
       title: Đăng xuất
     settings:
