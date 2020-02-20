@@ -69,6 +69,10 @@ en:
     deleted: User deleted
     delete: Delete
     post: Post
+    following: Following
+    followers: Followers
+    follow: Follow
+    unfollow: Unfollow
     delete_message: "You sure ?"
     cant_delete: "Can't delete this user"
     not_found: User not found
